@@ -30,7 +30,8 @@ body {
         position: relative; }
     body .container .banner {
       background-color: #E5E5E7;
-      text-align: center; }
+      text-align: center;
+      margin-bottom: 5px; }
       body .container .banner img {
         width: 80%;
         padding-top: 20px; }
@@ -41,20 +42,38 @@ body {
         margin-right: auto;
         padding-bottom: 10px; }
         body .container .banner .category h2 {
-          font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+          font-family: 'TradeGothicBoldCondensed', sans-serif;
           color: #FFA409;
           font-size: 33px; }
         body .container .banner .category p {
           font-family: Arial, sans-serif;
           color: #58585A;
           font-size: 16px; }
+    body .container .furniture-grid {
+      background-color: #FFF;
+      padding-left: 33px; }
+      body .container .furniture-grid .grid-box {
+        width: 300px;
+        height: 465px;
+        word-wrap: break-word;
+        display: inline-block;
+        padding-top: 0;
+        margin-bottom: 12px; }
+        body .container .furniture-grid .grid-box img {
+          width: 270px;
+          padding-top: 0; }
+        body .container .furniture-grid .grid-box p {
+          display: inline-block;
+          max-width: 270px; }
+        body .container .furniture-grid .grid-box h2 {
+          display: block; }
     body .container .footer {
       height: 135px;
       background-image: url("../assets/images/footer.jpg");
       padding-top: 35px;
       padding-bottom: 35px; }
       body .container .footer form span {
-        font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+        font-family: 'TradeGothicBoldCondensed', sans-serif;
         color: #FFA409;
         font-size: 20px;
         margin-right: 5px; }
@@ -65,13 +84,13 @@ body {
         color: #B5B5B5;
         margin-right: 3px;
         font-size: 20px;
-        font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif; }
+        font-family: 'TradeGothicBoldCondensed', sans-serif; }
       body .container .footer form .button {
         height: 40px;
         width: 110px;
         background-color: #FFA409;
         font-size: 20px;
         color: #FFF;
-        font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif; }
+        font-family: 'TradeGothicBoldCondensed', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

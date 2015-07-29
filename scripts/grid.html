@@ -2,7 +2,7 @@
   <img class="logo center" src="assets/images/logo.png">
 </div>
 
-<div class="banner">
+ <div class="banner">
   <img src="assets/images/category.jpg">
 
   <div class="category">
@@ -17,15 +17,23 @@
     </p>
 
   </div>
+</div>
 
-  <div class="furniture-grid">
+<div class="furniture-grid" ng-repeat="(id, i) in grid.furniture | groupBy:3">
 
+  <div class="grid-box" ng-repeat="a in i">
+    <img src="{{a.imageUrl}}">
+    <h2>{{a.name}}</h2>
+    <span> CLICK FOR QUICK INFO + </span>
+    <p>
+      {{a.desc}}
+    </p>
   </div>
 
-  <div class="footer">
-     <form>
-       <span>SIGN UP FOR OUR NEWSLETTER: </span> <input type="text" placeholder="  NAME"> <input type="text" placeholder="  EMAIL"> <input class="button" type="submit" value="SUBMIT">
-     </form>
-  </div>
+</div>
 
+<div class="footer">
+   <form>
+     <span>SIGN UP FOR OUR NEWSLETTER: </span> <input type="text" placeholder="  NAME"> <input type="text" placeholder="  EMAIL"> <input class="button" type="submit" value="SUBMIT">
+   </form>
 </div>

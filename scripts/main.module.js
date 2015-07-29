@@ -1,2 +1,2 @@
 angular
-	.module('showcase', ['ngRoute'])
+	.module('showcase', ['angular.filter', 'ngRoute']);

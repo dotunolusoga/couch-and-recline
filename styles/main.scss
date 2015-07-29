@@ -42,6 +42,7 @@ body {
     .banner {
       background-color: #E5E5E7;
       text-align: center;
+      margin-bottom: 5px;
 
       img {
         width: 80%;
@@ -56,7 +57,7 @@ body {
         padding-bottom: 10px;
 
         h2 {
-          font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+          font-family: 'TradeGothicBoldCondensed', sans-serif;
           color: #FFA409;
           font-size: 33px;
         }
@@ -69,6 +70,39 @@ body {
       }
     }
 
+    .furniture-grid {
+      background-color: #FFF;
+      padding-left: 33px;
+
+
+      .grid-box {
+        width: 300px;
+        height: 465px;
+        word-wrap:break-word;
+        display: inline-block;
+        padding-top: 0;
+        margin-bottom: 12px;
+
+        img {
+          width: 270px;
+          padding-top: 0;
+        }
+
+        p {
+          display: inline-block;
+          max-width: 270px;
+
+        }
+
+        h2 {
+          display: block;
+        }
+      }
+
+
+
+    }
+
     .footer {
       height: 135px;
       background-image: url('../assets/images/footer.jpg');
@@ -78,7 +112,7 @@ body {
       form {
 
         span {
-          font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+          font-family: 'TradeGothicBoldCondensed', sans-serif;
           color: #FFA409;
           font-size: 20px;
           margin-right: 5px;
@@ -91,7 +125,7 @@ body {
           color: #B5B5B5;
           margin-right: 3px;
           font-size: 20px;
-          font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+          font-family: 'TradeGothicBoldCondensed', sans-serif;
         }
 
         .button {
@@ -100,7 +134,7 @@ body {
           background-color: #FFA409;
           font-size: 20px;
           color: #FFF;
-          font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+          font-family: 'TradeGothicBoldCondensed', sans-serif;
         }
 
       }
