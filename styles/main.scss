@@ -1,6 +1,109 @@
+@font-face {
+  font-family: 'TradeGothicBoldCondensed';
+  src: url('../assets/fonts/TradeGothicBoldCondensed.eot'); /* IE9 Compat Modes */
+  src: url('../assets/fonts/TradeGothicBoldCondensed.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../assets/fonts/TradeGothicBoldCondensed.woff') format('woff'), /* Modern Browsers */
+       url('../assets/fonts/TradeGothicBoldCondensed.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../assets/fonts/TradeGothicBoldCondensed.svg#svgFontName') format('svg'); /* Legacy iOS */
 
-p {
-  h3 {
-    color: lightgray;
+  font-weight: 700;
+}
+
+.center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0 1em;
+
+  .container {
+    width: 935px;
+    border: 1px solid lightgray;
+    height: 100%;
+    border-top: 20px solid #FFA409;
+    position: relative;
+
+    .header {
+      text-align: center;
+
+      img {
+      padding-top: 35px;
+      padding-bottom: 35px;
+      position: relative;
+      }
+
+    }
+
+    .banner {
+      background-color: #E5E5E7;
+      text-align: center;
+
+      img {
+        width: 80%;
+        padding-top: 20px;
+      }
+
+      .category {
+        width: 80%;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px;
+
+        h2 {
+          font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+          color: #FFA409;
+          font-size: 33px;
+        }
+
+        p {
+          font-family: Arial, sans-serif;
+          color: #58585A;
+          font-size: 16px;
+        }
+      }
+    }
+
+    .footer {
+      height: 135px;
+      background-image: url('../assets/images/footer.jpg');
+      padding-top: 35px;
+      padding-bottom: 35px;
+
+      form {
+
+        span {
+          font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+          color: #FFA409;
+          font-size: 20px;
+          margin-right: 5px;
+        }
+
+        input {
+          height: 40px;
+          width: 245px;
+          background-color: #FFFFFF;
+          color: #B5B5B5;
+          margin-right: 3px;
+          font-size: 20px;
+          font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+        }
+
+        .button {
+          height: 40px;
+          width: 110px;
+          background-color: #FFA409;
+          font-size: 20px;
+          color: #FFF;
+          font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+        }
+
+      }
+    }
   }
 }

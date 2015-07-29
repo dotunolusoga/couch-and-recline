@@ -1,4 +1,77 @@
-p h3 {
-  color: lightgray; }
+@font-face {
+  font-family: 'TradeGothicBoldCondensed';
+  src: url("../assets/fonts/TradeGothicBoldCondensed.eot");
+  /* IE9 Compat Modes */
+  src: url("../assets/fonts/TradeGothicBoldCondensed.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/TradeGothicBoldCondensed.woff") format("woff"), url("../assets/fonts/TradeGothicBoldCondensed.ttf") format("truetype"), url("../assets/fonts/TradeGothicBoldCondensed.svg#svgFontName") format("svg");
+  /* Legacy iOS */
+  font-weight: 700; }
+
+.center {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto; }
+
+body {
+  margin: 0;
+  padding: 0 1em; }
+  body .container {
+    width: 935px;
+    border: 1px solid lightgray;
+    height: 100%;
+    border-top: 20px solid #FFA409;
+    position: relative; }
+    body .container .header {
+      text-align: center; }
+      body .container .header img {
+        padding-top: 35px;
+        padding-bottom: 35px;
+        position: relative; }
+    body .container .banner {
+      background-color: #E5E5E7;
+      text-align: center; }
+      body .container .banner img {
+        width: 80%;
+        padding-top: 20px; }
+      body .container .banner .category {
+        width: 80%;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 10px; }
+        body .container .banner .category h2 {
+          font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+          color: #FFA409;
+          font-size: 33px; }
+        body .container .banner .category p {
+          font-family: Arial, sans-serif;
+          color: #58585A;
+          font-size: 16px; }
+    body .container .footer {
+      height: 135px;
+      background-image: url("../assets/images/footer.jpg");
+      padding-top: 35px;
+      padding-bottom: 35px; }
+      body .container .footer form span {
+        font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif;
+        color: #FFA409;
+        font-size: 20px;
+        margin-right: 5px; }
+      body .container .footer form input {
+        height: 40px;
+        width: 245px;
+        background-color: #FFFFFF;
+        color: #B5B5B5;
+        margin-right: 3px;
+        font-size: 20px;
+        font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif; }
+      body .container .footer form .button {
+        height: 40px;
+        width: 110px;
+        background-color: #FFA409;
+        font-size: 20px;
+        color: #FFF;
+        font-family: 'TradeGothicBoldCondensed', Fallback, sans-serif; }
 
 /*# sourceMappingURL=main.css.map */
