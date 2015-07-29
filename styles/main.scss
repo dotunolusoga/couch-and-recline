@@ -93,9 +93,21 @@ body {
           max-width: 270px;
 
         }
+         span {
+           font-family: 'TradeGothicBoldCondensed', sans-serif;
+           color: #FFA409;
+           font-size: 20px;
+
+           i {
+             color: #FFA409;
+           }
+         }
 
         h2 {
           display: block;
+          font-family: 'TradeGothicBoldCondensed', sans-serif;
+          color: #58585A;
+          font-size: 33px;
         }
       }
 
@@ -110,12 +122,13 @@ body {
       padding-bottom: 35px;
 
       form {
+        padding-left: 33px;
 
         span {
           font-family: 'TradeGothicBoldCondensed', sans-serif;
           color: #FFA409;
           font-size: 20px;
-          margin-right: 5px;
+          margin-right: 10px;
         }
 
         input {

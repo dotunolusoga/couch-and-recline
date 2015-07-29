@@ -17,6 +17,7 @@
     "angular": "~1.4.3",
     "angular-route": "~1.4.3",
     "firebase": "~2.2.7",
-    "angular-filter": "~0.5.4"
+    "angular-filter": "~0.5.4",
+    "font-awesome": "~4.4.0"
   }
 }

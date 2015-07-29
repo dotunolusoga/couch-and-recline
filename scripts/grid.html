@@ -23,17 +23,17 @@
 
   <div class="grid-box" ng-repeat="a in i">
     <img src="{{a.imageUrl}}">
-    <h2>{{a.name}}</h2>
-    <span> CLICK FOR QUICK INFO + </span>
+    <h2>{{a.name | uppercase}}</h2>
+    <span> CLICK FOR QUICK INFO <i class="fa fa-plus"></i> </span>
     <p>
-      {{a.desc}}
+      <!-- {{a.desc}} -->
     </p>
   </div>
 
 </div>
 
 <div class="footer">
-   <form>
-     <span>SIGN UP FOR OUR NEWSLETTER: </span> <input type="text" placeholder="  NAME"> <input type="text" placeholder="  EMAIL"> <input class="button" type="submit" value="SUBMIT">
+   <form class="contactForm" name="contact.contactForm" ng-submit="contact.getContact()">
+     <span>SIGN UP FOR OUR NEWSLETTER: </span> <input ng-model="contact.newContact.ContactName" type="text" placeholder="  NAME"> <input ng-model="contact.newContact.email" type="text" placeholder="  EMAIL"> <input class="button" type="submit" value="SUBMIT">
    </form>
 </div>
